@@ -1,0 +1,26 @@
+{
+  "name": "pingroom-starter-visit-route",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Plan an exact shortest closed tour through stops selected in PingRoom.",
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "start": "node src/cli.js run",
+    "connect": "node src/cli.js connect",
+    "inspect": "node src/cli.js inspect",
+    "status": "node src/cli.js status",
+    "report": "node src/cli.js report",
+    "find-id": "node src/cli.js find",
+    "recover": "node src/cli.js recover",
+    "demo": "node src/demo.js",
+    "test": "node --test",
+    "preview": "node src/cli.js preview"
+  },
+  "dependencies": {
+    "@pingroom/sdk": "0.7.0"
+  },
+  "license": "MIT"
+}
